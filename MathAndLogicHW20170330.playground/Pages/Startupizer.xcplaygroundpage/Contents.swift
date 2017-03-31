@@ -47,12 +47,3 @@ arrayOfNumbers.remove(at: 5)
 arrayOfNumbers.remove(at: 8)
 print(arrayOfNumbers)
 
-
-var listOfNumbers = [1, 2, 3, 10, 100]
-
-var i = 1
-
-while i < listOfNumbers.count {
-    print(listOfNumbers[i])
-    i += 2
-}
