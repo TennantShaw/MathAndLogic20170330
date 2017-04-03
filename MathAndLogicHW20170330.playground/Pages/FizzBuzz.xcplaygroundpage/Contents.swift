@@ -27,7 +27,7 @@ func transform (n: Int) -> Answer {
         return .number(n)
     }
 }
-//print(transform(n: 1))
+
 
 transform(n: 9) == .fizz
 transform(n: 10) == .buzz
